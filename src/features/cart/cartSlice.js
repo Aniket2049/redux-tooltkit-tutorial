@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import cartItems from "../../cartItems";
 
-const url = "https://course-api.com/react-useReducer-cart-project";
+const url = "https://www.course-api.com/react-useReducer-cart-project";
 
 export const getCartItems = createAsyncThunk("cart/getCartItems", () => {
   return fetch(url)
